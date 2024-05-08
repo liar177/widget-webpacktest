@@ -1,5 +1,6 @@
 # widget-webpacktest
 组件低代码化下一种拼装部件的打包思路
+```js
 // common
 const webpack = require("webpack");
 const path = require("path");
@@ -294,3 +295,4 @@ module.exports = merge(common, {
     }),
   ],
 });
+```
